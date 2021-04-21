@@ -1,0 +1,96 @@
+$niceBlue: #2b7cb3;
+$lightBlue: lightblue;
+
+@mixin margenes($top, $bottom) {
+    margin-top: $top;
+    margin-bottom: $bottom;
+}
+
+H1 {
+  font-size: 24px;
+}
+
+.breadcrumb, .breadcrumb-item.active, .navBar {
+  background-color: $niceBlue;
+  color: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar-light .navbar-brand {
+  color: white;
+}
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+  color: $lightBlue;
+  font-weight: bold;
+}
+
+.jumbotron {
+  background-color: $lightBlue;
+  color: $niceBlue;
+  padding-bottom: 0;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+btn {
+  background-color: $lightBlue;
+  color: white;
+}
+
+footer {
+  padding: 10px 15px 0 15px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  background-color: $lightBlue;
+  color: black;
+  font-weight: lighter;
+}
+
+footer p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+a {
+  color: black;
+}
+
+.card-hotel {
+  width: 18rem;
+  margin-top: 0px;
+  margin-bottom: 25px;
+}
+
+.card-img {
+  padding: 5px 5px 0 5px;
+}
+
+.btn-reserva {
+  width: 100%;
+}
+
+.iconos {
+  padding-right: 10px;
+}
+
+.tab-content {
+  padding-top: 10px;
+}
+
+.card-body-home {
+  height: 100px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+textarea {
+  resize: none;
+}
+
+.oi-star {
+  color: #F9D71C;
+}
